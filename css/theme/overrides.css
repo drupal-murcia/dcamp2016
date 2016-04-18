@@ -7,7 +7,7 @@
   border: none;
   box-shadow: none; }
 
-  /*********************************************
+ /*********************************************
  * LISTS
  *********************************************/
  .reveal ul {
@@ -27,3 +27,17 @@
  	left: 0;
  	color: #42affa;
  }
+
+ /*********************************************
+ * ELEMENTS
+ *********************************************/
+
+.dm-separador {
+	height: 0;
+	border: none;
+	border-bottom: 3px dashed #fff;
+	opacity: .4;
+	padding-top: .5em;
+	margin: 0;
+	margin-bottom: 1em;
+}
