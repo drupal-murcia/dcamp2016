@@ -1,0 +1,43 @@
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+  background: none;
+  border: none;
+  box-shadow: none; }
+
+ /*********************************************
+ * LISTS
+ *********************************************/
+ .reveal ul {
+ 	list-style: none;
+ 	margin: 0;
+ 	position: relative;
+ 	padding-left: 1em;
+ }
+
+ li {
+ 	
+ }
+
+ li::before {
+ 	content: "$";
+ 	position: absolute;
+ 	left: 0;
+ 	color: #42affa;
+ }
+
+ /*********************************************
+ * ELEMENTS
+ *********************************************/
+
+.dm-separador {
+	height: 0;
+	border: none;
+	border-bottom: 3px dashed #fff;
+	opacity: .4;
+	padding-top: .5em;
+	margin: 0;
+	margin-bottom: 1em;
+}
